@@ -17,6 +17,8 @@ const handler = new sern_handler(new Payload(
 
 ))
 
+handler.displayOptions({consoleCommands: true})
+
 console.log("logging in")
 
 
